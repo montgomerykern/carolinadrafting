@@ -1,5 +1,8 @@
 <template>
-<h1>Hello World</h1>
+  <div>
+    <div>My blog navigation bar here</div>
+    <Nuxt />
+  </div>
 </template>
 
 <script>
@@ -7,3 +10,4 @@ export default {
   name: 'IndexPage'
 }
 </script>
+
