@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div>My blog navigation bar here</div>
-    <Nuxt />
+    <h1>Welcome Friend</h1>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
