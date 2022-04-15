@@ -1,67 +1,65 @@
 <template>
-  <div>
-    <nav>
-      <ul>
-        <li>
-          <NuxtLink to="/">Home</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/about">about</NuxtLink>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <img src="~/assets/logo.svg" />
-      <Nuxt />
-    </main>
+  <div class="container">
+    <nuxt/>
   </div>
 </template>
+
 <style>
-:root {
-  --primary-color: #00c58e;
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
   margin: 0;
 }
 
-a,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover,
-a.nuxt-link-exact-active {
-  color: var(--primary-color);
-}
-
-main {
-  margin: 0 auto;
-  margin-top: 25vh;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
-  max-width: 1280px;
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-li {
-  margin: 0 0.5rem;
-  padding: 0.25rem;
-  font-size: 1.2rem;
+.button--green {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-flex;
+  align-self: center;
 }
 
-nav {
-  padding: 0 1rem;
+.button--green:hover {
+  color: #fff;
+  background-color: #3b8070;
+}
+
+.button--grey {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #35495e;
+  color: #35495e;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button--grey:hover {
+  color: #fff;
+  background-color: #35495e;
 }
 </style>
