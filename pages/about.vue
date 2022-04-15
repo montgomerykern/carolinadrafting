@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div><img src="~/assets/logo.svg" />
+      <h1>About</h1>
     <Nuxt />
   </div>
 </template>
