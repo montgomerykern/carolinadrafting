@@ -6,7 +6,7 @@
           <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/login">Login</NuxtLink>
+          <NuxtLink to="/error">test</NuxtLink>
         </li>
       </ul>
     </nav>

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div>Arriving Soon!!</div>
     <Nuxt />
   </div>
 </template>
