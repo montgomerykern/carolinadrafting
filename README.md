@@ -1,22 +1,29 @@
-# codesandbox-nuxt
+# Nuxt 3 Minimal Starter
 
-> Nuxt starter for CodeSandBox
+We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
-## Build Setup
+## Setup
 
-``` bash
-# install dependencies
-$ yarn install
+Make sure to install the dependencies
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
+```bash
+yarn install
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Development
+
+Start the development server on http://localhost:3000
+
+```bash
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+yarn build
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
