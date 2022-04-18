@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-uikit",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox with UIkit",
+  "author": "Atinux",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "node-sass": "4.9.4",
+    "nuxt": "^2.1.0",
+    "sass-loader": "7.1.0",
+    "uikit": "3.0.0-rc.20"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "keywords": [
+    "nuxt",
+    "uikit"
+  ]
+}
