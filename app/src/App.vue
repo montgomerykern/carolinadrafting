@@ -48,7 +48,7 @@
                     fill="#fff"
                   ></path>
                 </svg>
-                NetCraft 
+                NetCraft   
               </a>
             </div>
             <div class="uk-navbar-right">
